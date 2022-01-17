@@ -28,7 +28,7 @@ ei_lahjaa = [True]*pukki_lkm
 i = 0
 
 while(i < pukki_lkm):  
-    arpoja = random.randint(0,pukki_lkm)
+    arpoja = random.randint(0,pukki_lkm-1)
     pukki = pukit[i]
     if ei_lahjaa[arpoja] and arpoja!=i:
         ei_lahjaa[arpoja] = False
